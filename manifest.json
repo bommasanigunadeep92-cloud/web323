@@ -1,0 +1,35 @@
+{
+  "name": "Smart Disaster AI - Emergency Guardian",
+  "short_name": "Emergency SOS",
+  "description": "Zero-Touch Acoustic Scream & Motion Shake Emergency Response Platform",
+  "start_url": "/voice-sos?mode=handsfree",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#dc2626",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Zero-Touch Shout & Shake SOS",
+      "short_name": "Shout & Shake",
+      "description": "Auto-armed zero-touch guardian: 3 shouts of HELP or 4 hard shakes fires SOS",
+      "url": "/voice-sos?mode=handsfree",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Voice SOS Intake",
+      "short_name": "Voice SOS",
+      "description": "Multilingual emergency voice recording",
+      "url": "/voice-sos",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    }
+  ]
+}
